@@ -71,7 +71,11 @@
 			<version>4.1.66.Final</version>
 			<classifier>linux-x86_64</classifier> <!-- 适用于 Linux x86_64 平台 -->
 		</dependency>
-
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>3.6.1</version>
+		</dependency>
 
 	</dependencies>
 	
